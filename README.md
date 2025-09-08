@@ -40,7 +40,7 @@ Developed in a team of two a desktop application for managing shared ToDo lists 
 - Implemented **user authentication**, CRUD operations, real-time updates, and support for image attachments.  
 - Designed the **database schema** and integrated custom SQL views, functions, and triggers for automation.  
 
-### 📚 [LASD – Advanced Data Structures Library in C++](https://github.com/shalashaska117/LASD-Project)  
+### 📚 [LASD – Advanced Data Structures Library in C++](https://github.com/shalashaska117/LASD_Project_2025)  
 📌 Feb 2025 – May 2025  
 Implemented a comprehensive **C++ library of advanced data structures**: Lists, Vectors, Sets, Heaps, and Priority Queues.  
 - Supported mapping, folding, traversal, and dynamic resizing.  
