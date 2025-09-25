@@ -13,7 +13,7 @@ Currently, I am seeking an **internship or part-time position** to apply my skil
 C, C++, Java, Python, SQL, ARM Assembly, Prolog, ML  
 
 **Software & Tools:**  
-PostgreSQL, Visual Studio Code, IntelliJ IDEA, LaTeX, Linux, Windows  
+PostgreSQL, Docker, Visual Studio Code, IntelliJ IDEA, LaTeX, Linux, Windows  
 
 **Mathematics:**  
 Calculus, Group Theory, Ring Theory, Field Theory, Linear Algebra, Number Theory, Logic, Geometry  
