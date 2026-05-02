@@ -180,7 +180,7 @@ Relevant coursework:
 
 ## 🏅 Achievements & Certifications
 
-- 🥈 **Silver Medal** – International Mathematical Games Championships, Bocconi University, 2020
+- 🥈 **Silver Medal** – National Semifinal of the International Mathematical Games, Bocconi University, 2020
 - 🎓 **Cambridge English Certificate B2 First**, 2019
 - 🧠 **Mensa International — admitted member**
 
