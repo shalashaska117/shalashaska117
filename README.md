@@ -1,10 +1,14 @@
-# 👋 Hi, I'm Pietro
+# Hi, I'm Pietro
 
-I'm a **Computer Science student** at the University of Naples Federico II, focused on **formal logic**, **symbolic artificial intelligence**, **theoretical computer science** and **software engineering**.
+I'm a Computer Science student at the University of Naples Federico II, focused on logic-based AI, automated reasoning, formal logic and theoretical computer science.
 
-I enjoy building projects that connect rigorous theoretical ideas with practical implementation: from logic-based tools and model checking prototypes to backend systems, databases and client-server applications.
+I enjoy building systems that turn formal ideas into working software: propositional logic tools, temporal and strategic model checkers, and, next, automated theorem proving systems.
 
-Currently, I am looking for **internship**, **research-oriented** or **junior software development** opportunities where I can apply and strengthen my computer science foundations.
+My current direction is automated deduction and symbolic reasoning: proof search, theorem proving, formal semantics, and explainable logic-based AI.
+
+Alongside this, I also build backend systems, databases and client-server applications as part of my software engineering background.
+
+Currently, I am looking for internship, research-oriented or junior software development opportunities where I can apply and strengthen my computer science foundations.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.java.com/)
@@ -19,12 +23,11 @@ Currently, I am looking for **internship**, **research-oriented** or **junior so
 
 ## 🧠 Current Focus
 
-- Formal logic and mathematical foundations of computer science
+- Automated theorem proving and automated deduction
 - Symbolic artificial intelligence and logic-based reasoning
-- Model checking and formal verification
-- Backend development and REST API design
-- Databases, SQL and data modeling
-- Systems programming and client-server architectures
+- Formal logic and mathematical foundations of computer science
+- Model checking, temporal logic and strategic reasoning
+- Backend systems, databases and systems programming as applied software foundations
 
 ---
 
