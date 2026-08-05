@@ -13,7 +13,7 @@ Open to internship and research opportunities.
 I contribute to automated reasoning tools:
 
 - [Apalache](https://github.com/apalache-mc/apalache), the symbolic model checker for TLA+: [8 merged PRs](https://github.com/apalache-mc/apalache/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged) across the type checker, expression simplifier, and module importer.
-- [Vampire](https://github.com/vprover/vampire), the first-order theorem prover: merged fixes to TPTP `$let` parsing ([#885](https://github.com/vprover/vampire/pull/885)) and the test infrastructure ([#890](https://github.com/vprover/vampire/pull/890)), with TFF proof output in review ([#884](https://github.com/vprover/vampire/pull/884)).
+- [Vampire](https://github.com/vprover/vampire), the first-order theorem prover: merged fixes to TPTP `$let` parsing ([#885](https://github.com/vprover/vampire/pull/885)) and the test infrastructure ([#890](https://github.com/vprover/vampire/pull/890)), with a proof output language fix in review ([#884](https://github.com/vprover/vampire/pull/884)).
 
 ### Projects
 
@@ -31,6 +31,7 @@ More on my [portfolio](https://www.pietropellegrino.dev).
 ![TLA+](https://img.shields.io/badge/TLA%2B-4B0082?style=flat)
 ![Vampire](https://img.shields.io/badge/Vampire-8B0000?style=flat)
 ![TPTP](https://img.shields.io/badge/TPTP-2F4F4F?style=flat)
+![Liquid Haskell](https://img.shields.io/badge/Liquid_Haskell-5E5086?style=flat&logo=haskell&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 **Engineering**
@@ -39,6 +40,7 @@ More on my [portfolio](https://www.pietropellegrino.dev).
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
