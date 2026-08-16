@@ -1,6 +1,6 @@
 # Hi, I'm Pietro 👋
 
-CS student at the University of Naples Federico II and AI research contributor at Project Numina. I work on automated theorem proving, model checking, and formal logic.
+CS student at the University of Naples Federico II and AI researcher at Project Numina. I work on automated theorem proving, model checking, and formal logic.
 
 Open to internship and research opportunities.
 
