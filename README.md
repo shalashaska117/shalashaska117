@@ -12,8 +12,9 @@ Open to internship and research opportunities.
 
 I contribute to automated reasoning tools:
 
+- [Vampire](https://github.com/vprover/vampire), the first-order theorem prover: [6 merged PRs](https://github.com/vprover/vampire/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged), including fixes for a wrong answer from `-newcnf` on two Boolean `$let`s ([#894](https://github.com/vprover/vampire/pull/894)), a parser crash on Boolean `$let` ([#885](https://github.com/vprover/vampire/pull/885)) and proof output in the wrong TPTP fragment ([#884](https://github.com/vprover/vampire/pull/884)).
+- [LiquidHaskell](https://github.com/ucsd-progsys/liquidhaskell), the refinement type checker for Haskell: [3 merged PRs](https://github.com/ucsd-progsys/liquidhaskell/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged) fixing the autosize measure for recursive datatypes ([#2738](https://github.com/ucsd-progsys/liquidhaskell/pull/2738), [#2742](https://github.com/ucsd-progsys/liquidhaskell/pull/2742)) and rejecting `ple` annotations in modules that leave PLE off ([#2739](https://github.com/ucsd-progsys/liquidhaskell/pull/2739)).
 - [Apalache](https://github.com/apalache-mc/apalache), the symbolic model checker for TLA+: [8 merged PRs](https://github.com/apalache-mc/apalache/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged) across the type checker, expression simplifier, and module importer.
-- [Vampire](https://github.com/vprover/vampire), the first-order theorem prover: merged fixes to TPTP `$let` parsing ([#885](https://github.com/vprover/vampire/pull/885)) and the test infrastructure ([#890](https://github.com/vprover/vampire/pull/890)), with a proof output language fix in review ([#884](https://github.com/vprover/vampire/pull/884)).
 
 ### Projects
 
