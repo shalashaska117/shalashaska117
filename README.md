@@ -1,6 +1,6 @@
 # Hi, I'm Pietro 👋
 
-CS student at the University of Naples Federico II and AI researcher at Project Numina. I work on automated theorem proving, model checking, and formal logic.
+CS student at the University of Naples Federico II and AI researcher at Project Numina, where I work on automating mathematics and autoformalization with Numina Fuse. I worked on Numina's public [Lean 4 formalization of the three-dimensional Kakeya conjecture](https://github.com/project-numina/kakeya-3d). I also work on automated theorem proving, model checking, and formal logic.
 
 Open to internship and research opportunities.
 
