@@ -1,0 +1,26 @@
+{
+  "updated": "2026-11-09",
+  "total": 47,
+  "projects": [
+    {
+      "repository": "vprover/vampire",
+      "name": "Vampire",
+      "merged": 24
+    },
+    {
+      "repository": "project-numina/kakeya-3d",
+      "name": "Kakeya-3d",
+      "merged": 1
+    },
+    {
+      "repository": "ucsd-progsys/liquidhaskell",
+      "name": "LiquidHaskell",
+      "merged": 3
+    },
+    {
+      "repository": "apalache-mc/apalache",
+      "name": "Apalache",
+      "merged": 8
+    }
+  ]
+}

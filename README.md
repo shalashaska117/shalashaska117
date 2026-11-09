@@ -1,50 +1,78 @@
-# Hi, I'm Pietro 👋
+# Hi, I'm Pietro
 
-CS student at the University of Naples Federico II and AI researcher at Project Numina, where I work on automating mathematics and autoformalization with Numina Fuse. I worked on Numina's public [Lean 4 formalization of the three-dimensional Kakeya conjecture](https://github.com/project-numina/kakeya-3d). I also work on automated theorem proving, model checking, and formal logic.
+### Automated reasoning, formal verification, and AI for mathematics
+
+I'm a CS student at the University of Naples Federico II and an AI researcher at [Project Numina](https://projectnumina.ai). I work on theorem proving and model checking, contribute to [Vampire](https://github.com/vprover/vampire), and build [Fang](https://github.com/shalashaska117/Fang), a first-order theorem prover in Rust with Lean 4 proof checking.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-pietropellegrino.dev-2563eb?style=flat-square)](https://www.pietropellegrino.dev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro_Pellegrino-0A66C2?style=flat-square)](https://www.linkedin.com/in/ppellegrino2002/) [![Email](https://img.shields.io/badge/Email-Get_in_touch-7c3aed?style=flat-square&logo=protonmail&logoColor=white)](mailto:p.pellegrino2002@proton.me)
 
 Open to internship and research opportunities.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-pietropellegrino.dev-000000?style=for-the-badge&logo=firefox&logoColor=white)](https://www.pietropellegrino.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ppellegrino2002/)
-[![Email](https://img.shields.io/badge/Email-Reach_out-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:p.pellegrino2002@proton.me)
+## At Numina
 
-### Open source
+I work on automating mathematics and autoformalization with [Numina Fuse](https://fuse.projectnumina.ai). I also worked on Numina's public [Lean 4 formalization of the three-dimensional Kakeya conjecture](https://github.com/project-numina/kakeya-3d).
 
-I contribute to automated reasoning tools:
+[![Numina Fuse](https://img.shields.io/badge/Numina_Fuse-AI_for_formalization-7c3aed?style=for-the-badge)](https://fuse.projectnumina.ai) [![Kakeya in dimension three](https://img.shields.io/badge/Kakeya_3D-Lean_4-2563eb?style=for-the-badge)](https://github.com/project-numina/kakeya-3d)
 
-- [Vampire](https://github.com/vprover/vampire), the first-order theorem prover: [8 merged PRs](https://github.com/vprover/vampire/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged), including fixes for a wrong answer from `-newcnf` on two Boolean `$let`s ([#894](https://github.com/vprover/vampire/pull/894)), a parser crash on Boolean `$let` ([#885](https://github.com/vprover/vampire/pull/885)) and proof output in the wrong TPTP fragment ([#884](https://github.com/vprover/vampire/pull/884)), plus a staged refactor that names the hash function of every container explicitly ([#899](https://github.com/vprover/vampire/pull/899), [#904](https://github.com/vprover/vampire/pull/904), [#905](https://github.com/vprover/vampire/pull/905), [#906](https://github.com/vprover/vampire/pull/906)).
-- [LiquidHaskell](https://github.com/ucsd-progsys/liquidhaskell), the refinement type checker for Haskell: [3 merged PRs](https://github.com/ucsd-progsys/liquidhaskell/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged) fixing the autosize measure for recursive datatypes ([#2738](https://github.com/ucsd-progsys/liquidhaskell/pull/2738), [#2742](https://github.com/ucsd-progsys/liquidhaskell/pull/2742)) and rejecting `ple` annotations in modules that leave PLE off ([#2739](https://github.com/ucsd-progsys/liquidhaskell/pull/2739)).
-- [Apalache](https://github.com/apalache-mc/apalache), the symbolic model checker for TLA+: [8 merged PRs](https://github.com/apalache-mc/apalache/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged) across the type checker, expression simplifier, and module importer.
+## Open source
 
-### Projects
+<a href="https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Ashalashaska117+-user%3Ashalashaska117&amp;type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="profile/merged-prs-dark.svg"><img alt="Merged public pull requests, with counts for Vampire, Kakeya-3d, LiquidHaskell, and Apalache" src="profile/merged-prs-light.svg" width="400"></picture></a> <a href="https://github.com/shalashaska117?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg"><img alt="Pietro's public GitHub statistics, generated with GitHub Stats Extended" src="profile/stats-light.svg" width="400"></picture></a>
 
-- [Logic Evaluator](https://github.com/shalashaska117/logic-evaluator): propositional logic parser and Boolean minimizer (Quine-McCluskey, Petrick's method, Karnaugh maps). `Python`
+The cards refresh daily. The PR card counts public PRs merged into repositories owned by other users or organizations; the stats card covers my public GitHub activity.
+
+### Vampire
+
+I contribute correctness fixes and refactors to the [Vampire theorem prover](https://github.com/vprover/vampire). My merged work includes:
+
+- Fixing a wrong answer involving Boolean `$let` expressions ([#894](https://github.com/vprover/vampire/pull/894)) and Euclidean division in the Z3 integration ([#1025](https://github.com/vprover/vampire/pull/1025)).
+- Making container hash functions explicit and removing `DefaultHash` ([#935](https://github.com/vprover/vampire/pull/935)).
+- Fixing SMT proof reconstruction ([#971](https://github.com/vprover/vampire/pull/971)) and removing a timer-thread read of shared options ([#1027](https://github.com/vprover/vampire/pull/1027)).
+
+[Browse my merged Vampire PRs →](https://github.com/vprover/vampire/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged)
+
+### Other contributions
+
+- [Kakeya-3d](https://github.com/project-numina/kakeya-3d): work on the Lean 4 formalization of the three-dimensional Kakeya conjecture at Numina. [Merged PRs](https://github.com/project-numina/kakeya-3d/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
+- [LiquidHaskell](https://github.com/ucsd-progsys/liquidhaskell): recursive datatype autosize measures and validation of PLE annotations. [Merged PRs](https://github.com/ucsd-progsys/liquidhaskell/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
+- [Apalache](https://github.com/apalache-mc/apalache): type checking, expression simplification, and module importing in the TLA+ model checker. [Merged PRs](https://github.com/apalache-mc/apalache/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
+- [Lean Explore benchmarks](https://github.com/lean-explore/lean-explore-bench): offline benchmarks and candidate selection experiments for Lean 4 search. [Merged PRs](https://github.com/lean-explore/lean-explore-bench/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
+
+## Personal projects
+
+### Fang
+
+<a href="https://github.com/shalashaska117/Fang"><picture><source media="(prefers-color-scheme: dark)" srcset="profile/fang-dark.svg"><img alt="Fang repository: a first-order theorem prover in Rust with Lean 4 proof checking" src="profile/fang-light.svg" width="500"></picture></a>
+
+An experimental first-order theorem prover written in Rust. Fang reads TPTP problems and checks the proofs it finds with an independent Lean 4 checker before reporting success. It supports TSTP proof output; improving proof search is the current focus.
+
+[Source and documentation →](https://github.com/shalashaska117/Fang)
+
+### More projects
+
 - [ATL Model Checker](https://github.com/shalashaska117/atl-model-checker): strategic verification of multi-agent systems with Alternating-time Temporal Logic. `Python`
-- [DietiEstates25](https://github.com/shalashaska117/DietiEstates25): full-stack real estate platform with geospatial search. `Spring Boot · React · PostGIS`
-- [Labyrinth Game](https://github.com/shalashaska117/labyrinth-game): multiplayer TCP client-server maze game. `C · UNIX sockets`
+- [Logic Evaluator](https://github.com/shalashaska117/logic-evaluator): propositional logic parser and Boolean minimizer with Quine-McCluskey, Petrick's method, and Karnaugh maps. `Python`
+- [RegexRiddle](https://github.com/shalashaska117/RegexRiddle): a web game for practising regular expressions. `TypeScript · Vue · Express · PostgreSQL`
+- [DietiEstates25](https://github.com/shalashaska117/DietiEstates25): a real estate platform with geospatial search. `Java · Spring Boot · React · PostGIS`
+- [Labyrinth Game](https://github.com/shalashaska117/labyrinth-game): a multiplayer maze game with a TCP client-server architecture. `C · UNIX sockets`
 
 More on my [portfolio](https://www.pietropellegrino.dev).
 
-### Stack
+## Technologies I've used
 
-**Reasoning**
-![Lean](https://img.shields.io/badge/Lean-5A4FCF?style=flat&logo=lean&logoColor=white)
-![TLA+](https://img.shields.io/badge/TLA%2B-4B0082?style=flat)
-![Vampire](https://img.shields.io/badge/Vampire-8B0000?style=flat)
-![TPTP](https://img.shields.io/badge/TPTP-2F4F4F?style=flat)
-![Liquid Haskell](https://img.shields.io/badge/Liquid_Haskell-5E5086?style=flat&logo=haskell&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+### Programming languages
 
-**Engineering**
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
-![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-292929?style=flat-square&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+### Proof assistants and verification tools
+
+![Lean 4](https://img.shields.io/badge/Lean_4-5A4FCF?style=flat-square&logo=lean&logoColor=white) ![Vampire](https://img.shields.io/badge/Vampire-9F1239?style=flat-square) ![TPTP](https://img.shields.io/badge/TPTP-334155?style=flat-square) ![TLA+](https://img.shields.io/badge/TLA%2B-6D28D9?style=flat-square) ![Apalache](https://img.shields.io/badge/Apalache-6D28D9?style=flat-square) ![LiquidHaskell](https://img.shields.io/badge/LiquidHaskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
+
+### Web frameworks and databases
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vue](https://img.shields.io/badge/Vue-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D) ![Node.js](https://img.shields.io/badge/Node.js-417E38?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-292929?style=flat-square&logo=express&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![PostGIS](https://img.shields.io/badge/PostGIS-4169E1?style=flat-square) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+
+### Development, testing, and writing
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=222222) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square) ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+
+<sub>Cards: <a href="https://github.com/stats-organization/github-stats-extended">GitHub Stats Extended</a>. <a href=".github/profile-cards.md">How the cards update</a>.</sub>

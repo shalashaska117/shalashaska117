@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="285" viewBox="0 0 420 285" role="img">
+<rect x="0.5" y="0.5" width="419" height="284" rx="10" fill="#ffffff" stroke="#d1d9e0"/>
+<g font-family="Segoe UI, Ubuntu, sans-serif">
+<text x="24" y="35" font-size="18" font-weight="600" fill="#8250df">Merged pull requests</text>
+<text x="24" y="83" font-size="38" font-weight="700" fill="#1f2328">47</text>
+<text x="115" y="65" font-size="13" fill="#59636e">public PRs merged</text>
+<text x="115" y="84" font-size="13" fill="#59636e">into repositories owned by others</text>
+<path d="M24 104H396" stroke="#d1d9e0"/>
+<text x="24" y="130" font-size="14" fill="#1f2328">Vampire</text>
+<rect x="166" y="120" width="174" height="9" rx="4" fill="#eaeef2"/>
+<rect x="166" y="120" width="174.0" height="9" rx="4" fill="#8250df"/>
+<text x="395" y="130" text-anchor="end" font-size="15" font-weight="600" fill="#1f2328">24</text>
+<text x="24" y="164" font-size="14" fill="#1f2328">Kakeya-3d</text>
+<rect x="166" y="154" width="174" height="9" rx="4" fill="#eaeef2"/>
+<rect x="166" y="154" width="7.2" height="9" rx="4" fill="#8250df"/>
+<text x="395" y="164" text-anchor="end" font-size="15" font-weight="600" fill="#1f2328">1</text>
+<text x="24" y="198" font-size="14" fill="#1f2328">LiquidHaskell</text>
+<rect x="166" y="188" width="174" height="9" rx="4" fill="#eaeef2"/>
+<rect x="166" y="188" width="21.8" height="9" rx="4" fill="#8250df"/>
+<text x="395" y="198" text-anchor="end" font-size="15" font-weight="600" fill="#1f2328">3</text>
+<text x="24" y="232" font-size="14" fill="#1f2328">Apalache</text>
+<rect x="166" y="222" width="174" height="9" rx="4" fill="#eaeef2"/>
+<rect x="166" y="222" width="58.0" height="9" rx="4" fill="#8250df"/>
+<text x="395" y="232" text-anchor="end" font-size="15" font-weight="600" fill="#1f2328">8</text>
+<text x="24" y="263" font-size="11" fill="#59636e">Selected projects · Updated 2026-11-09 UTC</text>
+</g></svg>

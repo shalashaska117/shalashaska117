@@ -1,0 +1,79 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-cards.yml'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.repository == 'shalashaska117/shalashaska117'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Check contribution generator
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Update public merged PR counts
+        run: python3 scripts/update_contributions.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Generate light stats with GitHub Stats Extended
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: stats
+          options: username=shalashaska117&custom_title=GitHub%20activity&show_icons=true&hide_rank=true&show=prs_merged,reviews&theme=light_github&title_color=8250df&icon_color=8250df&border_radius=10&card_width=420&line_height=30&disable_animations=true
+          path: profile/stats-light.svg
+          core_version: 2.3.0
+          fail_on_error: true
+          token: ${{ github.token }}
+      - name: Generate dark stats with GitHub Stats Extended
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: stats
+          options: username=shalashaska117&custom_title=GitHub%20activity&show_icons=true&hide_rank=true&show=prs_merged,reviews&theme=dark_github&title_color=bc8cff&icon_color=bc8cff&border_radius=10&card_width=420&line_height=30&disable_animations=true
+          path: profile/stats-dark.svg
+          core_version: 2.3.0
+          fail_on_error: true
+          token: ${{ github.token }}
+      - name: Generate light Fang card
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: pin
+          options: username=shalashaska117&repo=Fang&theme=light_github_repocard&title_color=8250df&border_radius=10&card_width=500&description_lines_count=2
+          path: profile/fang-light.svg
+          core_version: 2.3.0
+          fail_on_error: true
+          token: ${{ github.token }}
+      - name: Generate dark Fang card
+        uses: stats-organization/github-readme-stats-action@96a939a7398a290e0a9f84b2b31d21d0cf67d483 # v2
+        with:
+          card: pin
+          options: username=shalashaska117&repo=Fang&theme=dark_github_repocard&title_color=bc8cff&border_radius=10&card_width=500&description_lines_count=2
+          path: profile/fang-dark.svg
+          core_version: 2.3.0
+          fail_on_error: true
+          token: ${{ github.token }}
+      - name: Commit updated cards
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile/*.svg profile/contributions.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Update profile cards'
+          git pull --rebase origin main
+          git push origin HEAD:main
