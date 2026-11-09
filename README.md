@@ -18,8 +18,6 @@ I work on automating mathematics and autoformalization with [Numina Fuse](https:
 
 <a href="https://github.com/search?q=is%3Apr+is%3Amerged+is%3Apublic+author%3Ashalashaska117+-user%3Ashalashaska117&amp;type=pullrequests"><picture><source media="(prefers-color-scheme: dark)" srcset="profile/merged-prs-dark.svg"><img alt="Merged public pull requests, with counts for Vampire, Kakeya-3d, LiquidHaskell, and Apalache" src="profile/merged-prs-light.svg" width="400"></picture></a> <a href="https://github.com/shalashaska117?tab=overview"><picture><source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg"><img alt="Pietro's public GitHub statistics, generated with GitHub Stats Extended" src="profile/stats-light.svg" width="400"></picture></a>
 
-The cards refresh daily. The PR card counts public PRs merged into repositories owned by other users or organizations; the stats card covers my public GitHub activity.
-
 ### Vampire
 
 I contribute correctness fixes and refactors to the [Vampire theorem prover](https://github.com/vprover/vampire). My merged work includes:
