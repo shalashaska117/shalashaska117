@@ -39,8 +39,6 @@ Other projects:
 - [Logic Evaluator](https://github.com/shalashaska117/logic-evaluator): propositional logic and Boolean minimization. `Python`
 - [DietiEstates25](https://github.com/shalashaska117/DietiEstates25): real estate platform with geospatial search. `Spring Boot · React · PostGIS`
 
-More projects on [GitHub](https://github.com/shalashaska117?tab=repositories) and my [portfolio](https://www.pietropellegrino.dev).
-
 ## Technologies I've used
 
 Programming languages<br>![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat-square&logo=scala&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-292929?style=flat-square&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=222222) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
