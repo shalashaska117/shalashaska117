@@ -18,8 +18,6 @@ Open to internship and research opportunities.
 
 I contribute correctness fixes and refactors to the [Vampire theorem prover](https://github.com/vprover/vampire), from Boolean expressions and proof reconstruction to explicit container hashing.
 
-[Browse my merged Vampire PRs →](https://github.com/vprover/vampire/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged)
-
 Other contributions:
 
 - [LiquidHaskell](https://github.com/ucsd-progsys/liquidhaskell): autosize measures and PLE annotation checks. [Merged PRs](https://github.com/ucsd-progsys/liquidhaskell/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
