@@ -1,4 +1,4 @@
-# Hi, I'm Pietro
+# Hi, I'm Pietro 👋
 
 ### Automated reasoning, formal verification, and AI for mathematics
 
