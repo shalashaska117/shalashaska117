@@ -35,7 +35,6 @@ I contribute correctness fixes and refactors to the [Vampire theorem prover](htt
 - [Kakeya-3d](https://github.com/project-numina/kakeya-3d): work on the Lean 4 formalization of the three-dimensional Kakeya conjecture at Numina. [Merged PRs](https://github.com/project-numina/kakeya-3d/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
 - [LiquidHaskell](https://github.com/ucsd-progsys/liquidhaskell): recursive datatype autosize measures and validation of PLE annotations. [Merged PRs](https://github.com/ucsd-progsys/liquidhaskell/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
 - [Apalache](https://github.com/apalache-mc/apalache): type checking, expression simplification, and module importing in the TLA+ model checker. [Merged PRs](https://github.com/apalache-mc/apalache/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
-- [Lean Explore benchmarks](https://github.com/lean-explore/lean-explore-bench): offline benchmarks and candidate selection experiments for Lean 4 search. [Merged PRs](https://github.com/lean-explore/lean-explore-bench/pulls?q=is%3Apr+author%3Ashalashaska117+is%3Amerged).
 
 ## Personal projects
 
